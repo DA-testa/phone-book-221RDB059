@@ -19,7 +19,6 @@ def write_responses(result):
 
 def temp_name(number):
     number += 6963
-    number -= 50
     number %= 10
     return number
 
